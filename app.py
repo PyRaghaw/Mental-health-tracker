@@ -1103,7 +1103,6 @@ async def get_resources():
         ]
     }
 
-# ==================== Admin Endpoints ====================
 
 @app.get("/api/admin/stats")
 async def get_admin_stats():
